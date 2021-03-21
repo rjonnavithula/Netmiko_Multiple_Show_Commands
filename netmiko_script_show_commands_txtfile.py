@@ -9,8 +9,8 @@ starttime = datetime.now()
 print('Startime: ', starttime)
 
 with open('device_list') as DEVICE_LIST:
-    for DEVICE in DEVICE_LIST:
-		 RTR = {
+	for DEVICE in DEVICE_LIST:
+		RTR = {
     	  'device_type': 'cisco_ios',
     	  'ip' : DEVICE,
     		'username' : USERNAME,
