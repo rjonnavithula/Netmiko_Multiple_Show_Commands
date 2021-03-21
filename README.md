@@ -1,5 +1,5 @@
 # Netmiko
-This is a simmple Netmiko script to gather multiple show commmands output fromm multiple devices(Cisco in this case).
+This is a simple Netmiko script to gather multiple show commmands output fromm multiple devices(Cisco in this case).
 
 The device_list in the example is a txt file with hostnames or IP addresses.\
 **Example:**\
